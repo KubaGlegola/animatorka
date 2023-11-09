@@ -1,0 +1,18 @@
+.hero {
+  min-height: 100dvh;
+  background: no-repeat center url(../assets/tlo.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    background: red;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    background-image: url(../assets/tloMobile.png);
+  }
+}
